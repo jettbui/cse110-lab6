@@ -155,31 +155,31 @@ class RecipeCard extends HTMLElement {
     const divImgEl = divEl.appendChild(document.createElement('img'));
     switch (rating) {
       case 0:
-        divImgEl.src = '/assets/images/icons/0-star.svg';
+        divImgEl.src = './assets/images/icons/0-star.svg';
         divImgEl.alt = '0 stars';
         break;
       case 1:
-        divImgEl.src = '/assets/images/icons/1-star.svg';
+        divImgEl.src = './assets/images/icons/1-star.svg';
         divImgEl.alt = '1 star';
         break;
       case 2:
-        divImgEl.src = '/assets/images/icons/2-star.svg';
+        divImgEl.src = './assets/images/icons/2-star.svg';
         divImgEl.alt = '2 stars';
         break;
       case 3:
-        divImgEl.src = '/assets/images/icons/3-star.svg';
+        divImgEl.src = './assets/images/icons/3-star.svg';
         divImgEl.alt = '3 stars';
         break;
       case 4:
-        divImgEl.src = '/assets/images/icons/4-star.svg';
+        divImgEl.src = './assets/images/icons/4-star.svg';
         divImgEl.alt = '4 stars';
         break;
       case 5:
-        divImgEl.src = '/assets/images/icons/5-star.svg';
+        divImgEl.src = './assets/images/icons/5-star.svg';
         divImgEl.alt = '5 stars';
         break;
       default:
-        divImgEl.src = '/assets/images/icons/0-star.svg';
+        divImgEl.src = './assets/images/icons/0-star.svg';
         divImgEl.alt = '0 stars';
         break;
     }

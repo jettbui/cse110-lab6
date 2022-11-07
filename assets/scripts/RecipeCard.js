@@ -153,7 +153,7 @@ class RecipeCard extends HTMLElement {
     const divSpanRatingEl = divEl.appendChild(document.createElement('span'));
     divSpanRatingEl.innerText = rating;
     const divImgEl = divEl.appendChild(document.createElement('img'));
-    switch (rating) {
+    switch (parseInt(rating)) {
       case 0:
         divImgEl.src = './assets/images/icons/0-star.svg';
         divImgEl.alt = '0 stars';
